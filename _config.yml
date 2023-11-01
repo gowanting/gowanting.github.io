@@ -210,7 +210,7 @@ keep_files:
   - CNAME
   - .nojekyll
   - .git
-
+exclude: [vendor]
 # Plug-ins
 plugins:
   - jekyll-archives

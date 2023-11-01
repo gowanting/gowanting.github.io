@@ -32,17 +32,17 @@ checking for RB_WARN_CATEGORY_DEPRECATED in ruby.h... yes
 creating Makefile
 
 current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/bigdecimal-3.1.4/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20231101-4986-7z62v5 sitelibdir\=./.gem.20231101-4986-7z62v5 clean
+make DESTDIR\= sitearchdir\=./.gem.20231101-10164-kb4vnw sitelibdir\=./.gem.20231101-10164-kb4vnw clean
 
 current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/bigdecimal-3.1.4/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20231101-4986-7z62v5 sitelibdir\=./.gem.20231101-4986-7z62v5
+make DESTDIR\= sitearchdir\=./.gem.20231101-10164-kb4vnw sitelibdir\=./.gem.20231101-10164-kb4vnw
 compiling bigdecimal.c
 compiling missing.c
 linking shared-object bigdecimal.bundle
 
 current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/bigdecimal-3.1.4/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20231101-4986-7z62v5 sitelibdir\=./.gem.20231101-4986-7z62v5 install
-/opt/homebrew/bin/ginstall -c -m 0755 bigdecimal.bundle ./.gem.20231101-4986-7z62v5
+make DESTDIR\= sitearchdir\=./.gem.20231101-10164-kb4vnw sitelibdir\=./.gem.20231101-10164-kb4vnw install
+/opt/homebrew/bin/ginstall -c -m 0755 bigdecimal.bundle ./.gem.20231101-10164-kb4vnw
 
 current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/bigdecimal-3.1.4/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20231101-4986-7z62v5 sitelibdir\=./.gem.20231101-4986-7z62v5 clean
+make DESTDIR\= sitearchdir\=./.gem.20231101-10164-kb4vnw sitelibdir\=./.gem.20231101-10164-kb4vnw clean

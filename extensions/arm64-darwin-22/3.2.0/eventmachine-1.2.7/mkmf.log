@@ -166,7 +166,7 @@ checked program was:
 DYLD_FALLBACK_LIBRARY_PATH=.:/Users/wanting/.rbenv/versions/3.2.2/lib "clang -o conftest -I/Users/wanting/.rbenv/versions/3.2.2/include/ruby-3.2.0/arm64-darwin22 -I/Users/wanting/.rbenv/versions/3.2.2/include/ruby-3.2.0/ruby/backward -I/Users/wanting/.rbenv/versions/3.2.2/include/ruby-3.2.0 -I. -I/Users/wanting/.rbenv/versions/3.2.2/openssl/include -I/Users/wanting/.rbenv/versions/3.2.2/openssl/include -I/opt/homebrew/opt/gmp/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe  conftest.c  -L. -L/Users/wanting/.rbenv/versions/3.2.2/lib -L/Users/wanting/.rbenv/versions/3.2.2/openssl/lib -L. -fstack-protector-strong -L/opt/homebrew/opt/gmp/lib -L/Users/wanting/.rbenv/versions/3.2.2/openssl/lib     -lssl -lcrypto -lcrypto -lssl -lruby.3.2  -lssl -lcrypto -lcrypto -lssl -lpthread  "
 Undefined symbols for architecture arm64:
   "_rb_thread_blocking_region", referenced from:
-      _t in conftest-a880b5.o
+      _t in conftest-cc9ca1.o
 ld: symbol(s) not found for architecture arm64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
@@ -329,7 +329,7 @@ checked program was:
 DYLD_FALLBACK_LIBRARY_PATH=.:/Users/wanting/.rbenv/versions/3.2.2/lib "clang -o conftest -I/Users/wanting/.rbenv/versions/3.2.2/include/ruby-3.2.0/arm64-darwin22 -I/Users/wanting/.rbenv/versions/3.2.2/include/ruby-3.2.0/ruby/backward -I/Users/wanting/.rbenv/versions/3.2.2/include/ruby-3.2.0 -I. -I/Users/wanting/.rbenv/versions/3.2.2/openssl/include -I/Users/wanting/.rbenv/versions/3.2.2/openssl/include -I/opt/homebrew/opt/gmp/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe  conftest.c  -L. -L/Users/wanting/.rbenv/versions/3.2.2/lib -L/Users/wanting/.rbenv/versions/3.2.2/openssl/lib -L. -fstack-protector-strong -L/opt/homebrew/opt/gmp/lib -L/Users/wanting/.rbenv/versions/3.2.2/openssl/lib     -lssl -lcrypto -lcrypto -lssl -lruby.3.2  -lssl -lcrypto -lcrypto -lssl -lpthread  "
 Undefined symbols for architecture arm64:
   "_rb_enable_interrupt", referenced from:
-      _t in conftest-edc8df.o
+      _t in conftest-fcd04e.o
 ld: symbol(s) not found for architecture arm64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
@@ -510,7 +510,7 @@ checked program was:
 DYLD_FALLBACK_LIBRARY_PATH=.:/Users/wanting/.rbenv/versions/3.2.2/lib "clang -o conftest -I/Users/wanting/.rbenv/versions/3.2.2/include/ruby-3.2.0/arm64-darwin22 -I/Users/wanting/.rbenv/versions/3.2.2/include/ruby-3.2.0/ruby/backward -I/Users/wanting/.rbenv/versions/3.2.2/include/ruby-3.2.0 -I. -I/Users/wanting/.rbenv/versions/3.2.2/openssl/include -I/Users/wanting/.rbenv/versions/3.2.2/openssl/include -I/opt/homebrew/opt/gmp/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe  conftest.c  -L. -L/Users/wanting/.rbenv/versions/3.2.2/lib -L/Users/wanting/.rbenv/versions/3.2.2/openssl/lib -L. -fstack-protector-strong -L/opt/homebrew/opt/gmp/lib -L/Users/wanting/.rbenv/versions/3.2.2/openssl/lib     -lssl -lcrypto -lcrypto -lssl -lruby.3.2  -lssl -lcrypto -lcrypto -lssl -lpthread  "
 Undefined symbols for architecture arm64:
   "_pipe2", referenced from:
-      _t in conftest-99080c.o
+      _t in conftest-3eab4d.o
 ld: symbol(s) not found for architecture arm64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
@@ -566,7 +566,7 @@ checked program was:
 DYLD_FALLBACK_LIBRARY_PATH=.:/Users/wanting/.rbenv/versions/3.2.2/lib "clang -o conftest -I/Users/wanting/.rbenv/versions/3.2.2/include/ruby-3.2.0/arm64-darwin22 -I/Users/wanting/.rbenv/versions/3.2.2/include/ruby-3.2.0/ruby/backward -I/Users/wanting/.rbenv/versions/3.2.2/include/ruby-3.2.0 -I. -I/Users/wanting/.rbenv/versions/3.2.2/openssl/include -I/Users/wanting/.rbenv/versions/3.2.2/openssl/include -I/opt/homebrew/opt/gmp/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe  conftest.c  -L. -L/Users/wanting/.rbenv/versions/3.2.2/lib -L/Users/wanting/.rbenv/versions/3.2.2/openssl/lib -L. -fstack-protector-strong -L/opt/homebrew/opt/gmp/lib -L/Users/wanting/.rbenv/versions/3.2.2/openssl/lib     -lssl -lcrypto -lcrypto -lssl -lruby.3.2  -lssl -lcrypto -lcrypto -lssl -lpthread  "
 Undefined symbols for architecture arm64:
   "_accept4", referenced from:
-      _t in conftest-01b6a6.o
+      _t in conftest-4d89ab.o
 ld: symbol(s) not found for architecture arm64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:

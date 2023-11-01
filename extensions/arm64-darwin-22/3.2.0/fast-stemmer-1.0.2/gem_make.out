@@ -3,10 +3,10 @@ current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/fast-s
 creating Makefile
 
 current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/fast-stemmer-1.0.2/ext
-make DESTDIR\= sitearchdir\=./.gem.20231101-4986-heqnzl sitelibdir\=./.gem.20231101-4986-heqnzl clean
+make DESTDIR\= sitearchdir\=./.gem.20231101-10164-gc1yuy sitelibdir\=./.gem.20231101-10164-gc1yuy clean
 
 current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/fast-stemmer-1.0.2/ext
-make DESTDIR\= sitearchdir\=./.gem.20231101-4986-heqnzl sitelibdir\=./.gem.20231101-4986-heqnzl
+make DESTDIR\= sitearchdir\=./.gem.20231101-10164-gc1yuy sitelibdir\=./.gem.20231101-10164-gc1yuy
 compiling porter.c
 porter.c:233:19: warning: passing 'const char[6]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
    {  if (ends(z, "\04" "sses")) z->k -= 2; else
@@ -561,8 +561,8 @@ porter_wrap.c:30:39: warning: implicit conversion loses integer precision: 'unsi
 linking shared-object stemmer.bundle
 
 current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/fast-stemmer-1.0.2/ext
-make DESTDIR\= sitearchdir\=./.gem.20231101-4986-heqnzl sitelibdir\=./.gem.20231101-4986-heqnzl install
-/opt/homebrew/bin/ginstall -c -m 0755 stemmer.bundle ./.gem.20231101-4986-heqnzl
+make DESTDIR\= sitearchdir\=./.gem.20231101-10164-gc1yuy sitelibdir\=./.gem.20231101-10164-gc1yuy install
+/opt/homebrew/bin/ginstall -c -m 0755 stemmer.bundle ./.gem.20231101-10164-gc1yuy
 
 current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/fast-stemmer-1.0.2/ext
-make DESTDIR\= sitearchdir\=./.gem.20231101-4986-heqnzl sitelibdir\=./.gem.20231101-4986-heqnzl clean
+make DESTDIR\= sitearchdir\=./.gem.20231101-10164-gc1yuy sitelibdir\=./.gem.20231101-10164-gc1yuy clean

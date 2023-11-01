@@ -3,10 +3,10 @@ current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/http_p
 creating Makefile
 
 current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
-make DESTDIR\= sitearchdir\=./.gem.20231101-4986-j7sol0 sitelibdir\=./.gem.20231101-4986-j7sol0 clean
+make DESTDIR\= sitearchdir\=./.gem.20231101-10164-5j8dgb sitelibdir\=./.gem.20231101-10164-5j8dgb clean
 
 current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
-make DESTDIR\= sitearchdir\=./.gem.20231101-4986-j7sol0 sitelibdir\=./.gem.20231101-4986-j7sol0
+make DESTDIR\= sitearchdir\=./.gem.20231101-10164-5j8dgb sitelibdir\=./.gem.20231101-10164-5j8dgb
 compiling ruby_http_parser.c
 ruby_http_parser.c:365:17: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'long' [-Wsign-compare]
     if (nparsed < len)
@@ -16,8 +16,8 @@ compiling ryah_http_parser.c
 linking shared-object ruby_http_parser.bundle
 
 current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
-make DESTDIR\= sitearchdir\=./.gem.20231101-4986-j7sol0 sitelibdir\=./.gem.20231101-4986-j7sol0 install
-/opt/homebrew/bin/ginstall -c -m 0755 ruby_http_parser.bundle ./.gem.20231101-4986-j7sol0
+make DESTDIR\= sitearchdir\=./.gem.20231101-10164-5j8dgb sitelibdir\=./.gem.20231101-10164-5j8dgb install
+/opt/homebrew/bin/ginstall -c -m 0755 ruby_http_parser.bundle ./.gem.20231101-10164-5j8dgb
 
 current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
-make DESTDIR\= sitearchdir\=./.gem.20231101-4986-j7sol0 sitelibdir\=./.gem.20231101-4986-j7sol0 clean
+make DESTDIR\= sitearchdir\=./.gem.20231101-10164-5j8dgb sitelibdir\=./.gem.20231101-10164-5j8dgb clean

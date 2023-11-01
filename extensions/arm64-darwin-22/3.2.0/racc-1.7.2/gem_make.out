@@ -3,16 +3,16 @@ current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/racc-1
 creating Makefile
 
 current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/racc-1.7.2/ext/racc/cparse
-make DESTDIR\= sitearchdir\=./.gem.20231101-4986-ioleqj sitelibdir\=./.gem.20231101-4986-ioleqj clean
+make DESTDIR\= sitearchdir\=./.gem.20231101-10164-djmn0h sitelibdir\=./.gem.20231101-10164-djmn0h clean
 
 current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/racc-1.7.2/ext/racc/cparse
-make DESTDIR\= sitearchdir\=./.gem.20231101-4986-ioleqj sitelibdir\=./.gem.20231101-4986-ioleqj
+make DESTDIR\= sitearchdir\=./.gem.20231101-10164-djmn0h sitelibdir\=./.gem.20231101-10164-djmn0h
 compiling cparse.c
 linking shared-object racc/cparse.bundle
 
 current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/racc-1.7.2/ext/racc/cparse
-make DESTDIR\= sitearchdir\=./.gem.20231101-4986-ioleqj sitelibdir\=./.gem.20231101-4986-ioleqj install
-/opt/homebrew/bin/ginstall -c -m 0755 cparse.bundle ./.gem.20231101-4986-ioleqj/racc
+make DESTDIR\= sitearchdir\=./.gem.20231101-10164-djmn0h sitelibdir\=./.gem.20231101-10164-djmn0h install
+/opt/homebrew/bin/ginstall -c -m 0755 cparse.bundle ./.gem.20231101-10164-djmn0h/racc
 
 current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/racc-1.7.2/ext/racc/cparse
-make DESTDIR\= sitearchdir\=./.gem.20231101-4986-ioleqj sitelibdir\=./.gem.20231101-4986-ioleqj clean
+make DESTDIR\= sitearchdir\=./.gem.20231101-10164-djmn0h sitelibdir\=./.gem.20231101-10164-djmn0h clean

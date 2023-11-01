@@ -10,10 +10,10 @@ creating extconf.h
 creating Makefile
 
 current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/ffi-1.16.3/ext/ffi_c
-make DESTDIR\= sitearchdir\=./.gem.20231101-4986-nvube7 sitelibdir\=./.gem.20231101-4986-nvube7 clean
+make DESTDIR\= sitearchdir\=./.gem.20231101-10164-8v0shu sitelibdir\=./.gem.20231101-10164-8v0shu clean
 
 current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/ffi-1.16.3/ext/ffi_c
-make DESTDIR\= sitearchdir\=./.gem.20231101-4986-nvube7 sitelibdir\=./.gem.20231101-4986-nvube7
+make DESTDIR\= sitearchdir\=./.gem.20231101-10164-8v0shu sitelibdir\=./.gem.20231101-10164-8v0shu
 compiling AbstractMemory.c
 compiling ArrayType.c
 compiling Buffer.c
@@ -40,8 +40,8 @@ compiling ffi.c
 linking shared-object ffi_c.bundle
 
 current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/ffi-1.16.3/ext/ffi_c
-make DESTDIR\= sitearchdir\=./.gem.20231101-4986-nvube7 sitelibdir\=./.gem.20231101-4986-nvube7 install
-/opt/homebrew/bin/ginstall -c -m 0755 ffi_c.bundle ./.gem.20231101-4986-nvube7
+make DESTDIR\= sitearchdir\=./.gem.20231101-10164-8v0shu sitelibdir\=./.gem.20231101-10164-8v0shu install
+/opt/homebrew/bin/ginstall -c -m 0755 ffi_c.bundle ./.gem.20231101-10164-8v0shu
 
 current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/ffi-1.16.3/ext/ffi_c
-make DESTDIR\= sitearchdir\=./.gem.20231101-4986-nvube7 sitelibdir\=./.gem.20231101-4986-nvube7 clean
+make DESTDIR\= sitearchdir\=./.gem.20231101-10164-8v0shu sitelibdir\=./.gem.20231101-10164-8v0shu clean
