@@ -1,4 +1,3 @@
-# frozen_string_literal: true
 #--
 #
 #
@@ -12,7 +11,7 @@
 #++
 
 module Racc
-  VERSION   = '1.7.2'
+  VERSION   = '1.7.1'
   Version = VERSION
   Copyright = 'Copyright (c) 1999-2006 Minero Aoki'
 end

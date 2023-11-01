@@ -1,0 +1,20 @@
+current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/racc-1.7.1/ext/racc/cparse
+/Users/wanting/.rbenv/versions/3.2.2/bin/ruby extconf.rb
+checking for rb_block_call()... yes
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20231102-36257-kbv6du sitelibdir\=./.gem.20231102-36257-kbv6du clean
+
+current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20231102-36257-kbv6du sitelibdir\=./.gem.20231102-36257-kbv6du
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20231102-36257-kbv6du sitelibdir\=./.gem.20231102-36257-kbv6du install
+/opt/homebrew/bin/ginstall -c -m 0755 cparse.bundle ./.gem.20231102-36257-kbv6du/racc
+
+current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20231102-36257-kbv6du sitelibdir\=./.gem.20231102-36257-kbv6du clean

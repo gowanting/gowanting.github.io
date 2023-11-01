@@ -173,7 +173,7 @@ target: TERM_A nonterm_a TERM_B nonterm_b
 --
 prechigh
   nonassoc PLUSPLUS
-  left     MULTI DIVIDE
+  left     MULTI DEVIDE
   left     PLUS MINUS
   right    '='
 preclow

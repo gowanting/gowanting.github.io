@@ -17,6 +17,32 @@
 
     $ gem install racc
 
+  setup.rb install:
+
+  Type this in the top directory of the extracted archive:
+
+    $ ruby setup.rb config
+    $ ruby setup.rb setup
+   ($ su)
+    # ruby setup.rb install
+
+  You can install Racc into your favorite directory by giving
+  options to setup.rb. e.g.
+
+    $ ruby setup.rb config --prefix=/usr
+
+  For details, try "ruby setup.rb --help".
+
+
+  If you don't have C Compiler
+  ----------------------------
+
+  You can install Racc without C compilers. Type following
+  command in config phase.
+
+    $ ruby setup.rb config --without-ext
+
+
 == Testing Racc
 
   Racc comes with simple calculator. To compile this, on shell:
@@ -31,13 +57,6 @@
   For details of Racc, see HTML documents placed under 'doc/en/'
   and sample grammar files under 'sample/'.
 
-== Release flow
-
-* Update VERSION number of these files
-  * <code>RACC_VERSION</code> in "ext/racc/com/headius/racc/Cparse.java"
-  * <code>VERSION</code> in "lib/racc/info.rb"
-* Release as a gem by <code>rake release</code> with CRuby and JRuby because Racc gem provides 2 packages
-* Create new release on {GitHub}[https://github.com/ruby/racc/releases]
 
 == License
 

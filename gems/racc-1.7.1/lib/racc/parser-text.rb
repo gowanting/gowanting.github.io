@@ -1,5 +1,6 @@
 module Racc
   PARSER_TEXT = <<'__end_of_file__'
+# frozen_string_literal: false
 #--
 # Copyright (c) 1999-2006 Minero Aoki
 #
@@ -13,6 +14,17 @@ module Racc
 
 unless $".find {|p| p.end_with?('/racc/info.rb')}
 $".push "#{__dir__}/racc/info.rb"
+#--
+#
+#
+#
+# Copyright (c) 1999-2006 Minero Aoki
+#
+# This program is free software.
+# You can distribute/modify this program under the same terms of ruby.
+# see the file "COPYING".
+#
+#++
 
 module Racc
   VERSION   = '1.7.1'
@@ -64,12 +76,10 @@ end
 # [-v, --verbose]
 #   verbose mode. create +filename+.output file, like yacc's y.output file.
 # [-g, --debug]
-#   add debug code to parser class. To display debugging information,
+#   add debug code to parser class. To display debuggin information,
 #   use this '-g' option and set @yydebug true in parser class.
 # [-E, --embedded]
 #   Output parser which doesn't need runtime files (racc/parser.rb).
-# [-F, --frozen]
-#   Output parser which declares frozen_string_literals: true
 # [-C, --check-only]
 #   Check syntax of racc grammar file and quit.
 # [-S, --output-status]
@@ -548,7 +558,7 @@ module Racc
     #
     # If this method returns, parsers enter "error recovering mode".
     def on_error(t, val, vstack)
-      raise ParseError, sprintf("parse error on value %s (%s)",
+      raise ParseError, sprintf("\nparse error on value %s (%s)",
                                 val.inspect, token_to_str(t) || '?')
     end
 
