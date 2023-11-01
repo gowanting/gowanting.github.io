@@ -202,6 +202,7 @@ kramdown:
 # Includes & excludes
 include: ['_pages']
 exclude:
+  - gem
   - bin
   - Gemfile
   - Gemfile.lock
@@ -210,7 +211,7 @@ keep_files:
   - CNAME
   - .nojekyll
   - .git
-exclude: [vendor]
+
 # Plug-ins
 plugins:
   - jekyll-archives

@@ -1,0 +1,82 @@
+\documentclass{article}
+\usepackage{ifthen}
+\usepackage{epsfig}
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor}
+\usepackage{newunicodechar}
+  \makeatletter
+    \def\doxynewunicodechar#1#2{%
+    \@tempswafalse
+    \edef\nuc@tempa{\detokenize{#1}}%
+    \if\relax\nuc@tempa\relax
+      \nuc@emptyargerr
+    \else
+      \edef\@tempb{\expandafter\@car\nuc@tempa\@nil}%
+      \nuc@check
+      \if@tempswa
+        \@namedef{u8:\nuc@tempa}{#2}%
+      \fi
+    \fi
+  }
+  \makeatother
+  \doxynewunicodechar{⁻}{${}^{-}$}% Superscript minus
+  \doxynewunicodechar{²}{${}^{2}$}% Superscript two
+  \doxynewunicodechar{³}{${}^{3}$}% Superscript three
+
+\pagestyle{empty}
+\begin{document}
+$ \mathbf{t}_{c} $
+\pagebreak
+
+$ \mathbf{R}_{c} $
+\pagebreak
+
+$ \mathbf{t}_{vp} $
+\pagebreak
+
+$ \mathbf{R}_{vp} $
+\pagebreak
+
+$ \mathbf{t}_{c'}^{c} $
+\pagebreak
+
+$ \mathbf{R}_{c'}^{c} $
+\pagebreak
+
+$ \mathbf{t}_{vp'}^{vp} $
+\pagebreak
+
+$ \mathbf{R}_{vp'}^{vp} $
+\pagebreak
+
+$ q $
+\pagebreak
+
+$ \mathbf{f}_{meas} $
+\pagebreak
+
+$ \mathbf{f}_{repr} $
+\pagebreak
+
+$ q_{threshold} $
+\pagebreak
+
+$ \psi $
+\pagebreak
+
+$ l $
+\pagebreak
+
+$ q_{threshold} = \arctan{\frac{\psi}{l}} $
+\pagebreak
+
+$ \cos q $
+\pagebreak
+
+$ \epsilon = 1 - \mathbf{f}_{meas}^{T}\mathbf{f}_{repr} = 1 - \cos q $
+\pagebreak
+
+$ \epsilon_{threshold} = 1 - \cos{q_{threshold}} = 1 - \cos({\arctan{\frac{\psi}{l}}}) $
+\pagebreak
+
+\end{document}
