@@ -1,0 +1,19 @@
+current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/eventmachine-1.2.7/ext/fastfilereader
+/Users/wanting/.rbenv/versions/3.2.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20231101-4986-6tikle sitelibdir\=./.gem.20231101-4986-6tikle clean
+
+current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20231101-4986-6tikle sitelibdir\=./.gem.20231101-4986-6tikle
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+
+current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20231101-4986-6tikle sitelibdir\=./.gem.20231101-4986-6tikle install
+/opt/homebrew/bin/ginstall -c -m 0755 fastfilereaderext.bundle ./.gem.20231101-4986-6tikle
+
+current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20231101-4986-6tikle sitelibdir\=./.gem.20231101-4986-6tikle clean

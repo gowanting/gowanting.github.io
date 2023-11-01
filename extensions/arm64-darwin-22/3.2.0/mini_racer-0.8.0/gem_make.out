@@ -1,0 +1,22 @@
+current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/mini_racer-0.8.0/ext/mini_racer_extension
+/Users/wanting/.rbenv/versions/3.2.2/bin/ruby extconf.rb
+checking for -lpthread... yes
+checking for -lobjc... yes
+checking for whether -Wl,--exclude-libs=ALL  is accepted as LDFLAGS... no
+creating Makefile
+
+current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/mini_racer-0.8.0/ext/mini_racer_extension
+make DESTDIR\= sitearchdir\=./.gem.20231101-4986-d2yetp sitelibdir\=./.gem.20231101-4986-d2yetp clean
+
+current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/mini_racer-0.8.0/ext/mini_racer_extension
+make DESTDIR\= sitearchdir\=./.gem.20231101-4986-d2yetp sitelibdir\=./.gem.20231101-4986-d2yetp
+compiling mini_racer_extension.cc
+clang: warning: argument unused during compilation: '-rdynamic' [-Wunused-command-line-argument]
+linking shared-object mini_racer_extension.bundle
+
+current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/mini_racer-0.8.0/ext/mini_racer_extension
+make DESTDIR\= sitearchdir\=./.gem.20231101-4986-d2yetp sitelibdir\=./.gem.20231101-4986-d2yetp install
+/opt/homebrew/bin/ginstall -c -m 0755 mini_racer_extension.bundle ./.gem.20231101-4986-d2yetp
+
+current directory: /Users/wanting/Files/git_sync/gowanting.github.io/gems/mini_racer-0.8.0/ext/mini_racer_extension
+make DESTDIR\= sitearchdir\=./.gem.20231101-4986-d2yetp sitelibdir\=./.gem.20231101-4986-d2yetp clean
