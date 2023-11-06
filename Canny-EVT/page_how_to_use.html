@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Canny-EVT: The Canny-EVT library</title>
+<title>Canny-EVT: How to use</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,7 +64,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('index.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('page_how_to_use.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -90,42 +90,52 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">The Canny-EVT library </div></div>
+  <div class="headertitle"><div class="title">How to use</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>The present software framework accompanies the paper submission "Semi-Dense Cross-Modal 6-DoF Tracking of an Event Camera in Challenging Conditions". It contains solutions for 6-dof semi-dense tracking with normal cameras as well as cross-modal 6-DoF semi-dense tracking with an event camera.</p>
-<p>Related Publications:</p>
-<ul>
-<li>Zuo, Yi–Fan, et al. "Devo: Depth-event camera visual odometry in challenging conditions." 2022 International Conference on Robotics and Automation (ICRA). IEEE, 2022.</li>
-<li>He, Shida, et al. "Incremental 3d line segment extraction from semi-dense slam." 2018 24th International Conference on Pattern Recognition (ICPR). IEEE, 2018.</li>
-<li>Mur-Artal, Raúl, and Juan D. Tardós. "Probabilistic Semi-Dense Mapping from Highly Accurate Feature-Based Monocular SLAM." Robotics: Science and Systems. Vol. 2015. 2015.</li>
-</ul>
-<h1><a class="anchor" id="main_sec_2"></a>
-Getting started</h1>
-<p>Canny-EVT features the following set of algorithms:</p>
+<div class="textblock"><h1><a class="anchor" id="sec_how_to_use_1"></a>
+Configuration Guide</h1>
+<p>To ensure proper setup, modifications in the <b>yaml</b> file are required. Here are the details on the relevant configurations:</p>
 <ul>
 <li>
-****: <ol>
+<b>pcd_path</b>: This represents the path to your point cloud data. Ensure you've correctly specified the full path to your point cloud file or directory. </li>
 <li>
-***** </li>
-</ol>
+<b>bag_path</b>: This is the path to your data. Make sure to correctly provide the path to where your data is stored. </li>
+<li>
+<p class="startli"><b>start_time</b>: This is the starting time, which is used to get a better initial pose. Specifically, it represents the timestamp of the first shot when building the map. We will provide a series of <b>start_time</b> values for your reference.</p>
+<p class="endli"></p>
 </li>
 </ul>
-<p>The aim of Canny-EVT is to ****.</p>
-<p>Please consult the following sub-pages to get a step-by-step introduction to the library:</p><ul>
-<li><a class="el" href="page_installation.html">Installation</a></li>
-<li><a class="el" href="page_how_to_use.html">How to use</a></li>
-<li><a class="el" href="page_datasets.html">Datasets used in our paper</a></li>
-<li><a class="el" href="page_how_to_contribute.html">How to contribute</a></li>
-<li><a class="el" href="page_contact.html">Contact</a></li>
-<li><a class="el" href="page_references.html">References</a> </li>
-</ul>
-</div></div><!-- PageDoc -->
-</div><!-- contents -->
+<h1><a class="anchor" id="sec_how_to_use_2"></a>
+Run Canny-EVT</h1>
+<p>To run Canny-EVT, follow the steps below (We take VECtor dataset as example):</p>
+<p>Starting roscore:</p>
+<pre class="fragment">roscore
+</pre><p> Starting rosrun:</p>
+<pre class="fragment">rosrun evit_demo run_VECtor /path/to/config.yaml
+</pre><p>Terminating the program:</p>
+<pre class="fragment">killall -9 run_VECtor
+</pre><p> Ensure you have the necessary permissions and paths set up before executing the commands.</p>
+<h1><a class="anchor" id="sec_how_to_use_3"></a>
+Mapping</h1>
+<p><b>Mapping</b> is a refined version of the open-source project "Incremental 3D Line Segment Extraction from Semi-dense SLAM". Our enhancement includes the integration of 3D gradients. To view the related code modifications, please navigate to the <a href="https://github.com/zyfff/Canny-EVT/tree/Mapping" target="_blank"><code>mapping</code></a> branch.</p>
+<h2><a class="anchor" id="sec_mapping_1"></a>
+Compilation and Execution</h2>
+<p>The procedure for compilation and execution aligns with the original source code (one can refer to the README in the <a href="https://github.com/zyfff/Canny-EVT/tree/Mapping" target="_blank"><code>mapping</code></a> branch). After a successful run, you will produce a <code>semi_pointcloud.obj</code> file.</p>
+<h2><a class="anchor" id="sec_mapping_2"></a>
+File Conversion</h2>
+<p>To transition the <code>semi_pointcloud.obj</code> file to a <code>.pcd</code> format, employ the following command with the provided script:</p>
+<pre class="fragment">python3 readobj_pc_normal_flow.py (todo: might change the file name)
+</pre><h1><a class="anchor" id="sec_how_to_use_4"></a>
+Executable Files</h1>
+<p>If you want to obtain the same experimental results as in the paper directly, you can go to our <a href="https://github.com/zyfff/Canny-VOAT" target="_blank"><code>executable files repository</code></a> to run them. </p>
+</div></div><!-- contents -->
+</div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="index.html">The Canny-EVT library</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
