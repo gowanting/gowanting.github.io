@@ -119,17 +119,30 @@ Run Canny-EVT</h1>
 <h1><a class="anchor" id="sec_how_to_use_3"></a>
 Mapping</h1>
 <p><b>Mapping</b> is a refined version of the open-source project "Incremental 3D Line Segment Extraction from Semi-dense SLAM". Our enhancement includes the integration of 3D gradients. To view the related code modifications, please navigate to the <a href="https://github.com/zyfff/Canny-EVT/tree/Mapping" target="_blank"><code>mapping</code></a> branch.</p>
-<h2><a class="anchor" id="sec_mapping_1"></a>
+<p>We also provide a script named ExtractBag.py that converts ROS bag files to the TUM format, extracts images, and generates an rgb.txt file.</p>
+<p>To use the script, execute the following command:</p>
+<pre class="fragment">python ExtractBag.py
+</pre><h2><a class="anchor" id="sec_mapping_1"></a>
 Compilation and Execution</h2>
 <p>The procedure for compilation and execution aligns with the original source code (one can refer to the README in the <a href="https://github.com/zyfff/Canny-EVT/tree/Mapping" target="_blank"><code>mapping</code></a> branch). After a successful run, you will produce a <code>semi_pointcloud.obj</code> file.</p>
 <h2><a class="anchor" id="sec_mapping_2"></a>
 File Conversion</h2>
 <p>To transition the <code>semi_pointcloud.obj</code> file to a <code>.pcd</code> format, employ the following command with the provided script:</p>
 <pre class="fragment">python3 readobj_pc_normal_flow.py (todo: might change the file name)
+</pre><h1><a class="anchor" id="sec_how_to_use_5"></a>
+Testing</h1>
+<p>To improve testing of localization accuracy, we use <code>result.txt</code> provided by the mapping phase as ground truth (GT). The assessment method is as follows:</p>
+<p>Place <code>gt.txt</code> and the output <code>result.txt</code> into the <code>/scripts/for_evaluation</code> directory.</p>
+<p>Run the evaluation script with the following command: </p><pre class="fragment">python compare_scale.sh
 </pre><h1><a class="anchor" id="sec_how_to_use_4"></a>
 Executable Files</h1>
-<p>If you want to obtain the same experimental results as in the paper directly, you can go to our <a href="https://github.com/zyfff/Canny-VOAT" target="_blank"><code>executable files repository</code></a> to run them. </p>
-</div></div><!-- contents -->
+<pre class="fragment">\******************************************************************************************
+</pre><p>Notice:</p>
+<p>Please be aware that this open-source code is still in the debugging and testing phase of development. It may not be stable and is likely subject to change.</p>
+<p>If you are seeking to replicate the test results as presented in the associated paper, we have provided an executable version for your convenience. For detailed information and access to the executable file, please visit our repository:</p>
+<p><a href="https://github.com/zyfff/Canny-VOAT" target="_blank"><code>Canny-VOAT Executable File</code></a></p>
+<pre class="fragment">\******************************************************************************************
+</pre> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['values_0',['values',['../struct_canny_e_v_t_1_1_generic_functor.html#a18d62714f87d4996aa1de31dd1de4c53',1,'CannyEVT::GenericFunctor']]]
+  ['distances_5falong_5ftrajectory_0',['distances_along_trajectory',['../namespaceevaluate__rpe.html#a1dc3a0f2c8042c86bbab61ff555602ad',1,'evaluate_rpe']]]
 ];

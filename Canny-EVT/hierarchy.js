@@ -15,5 +15,6 @@ var hierarchy =
     [ "CannyEVT::Point", "struct_canny_e_v_t_1_1_point.html", null ],
     [ "CannyEVT::ResidualItem", "struct_canny_e_v_t_1_1_residual_item.html", null ],
     [ "CannyEVT::System", "class_canny_e_v_t_1_1_system.html", null ],
-    [ "CannyEVT::TimeSurface", "class_canny_e_v_t_1_1_time_surface.html", null ]
+    [ "CannyEVT::TimeSurface", "class_canny_e_v_t_1_1_time_surface.html", null ],
+    [ "time_surface_vis.TimeSurfaceComp", "classtime__surface__vis_1_1_time_surface_comp.html", null ]
 ];

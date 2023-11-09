@@ -29,6 +29,13 @@ var NAVTREE =
     [ "Canny_EVIT", "md__2_users_2wanting_2_files_2git__sync_2_canny-_e_v_t_2_r_e_a_d_m_e.html", [
       [ "Canny-EVT", "md__2_users_2wanting_2_files_2git__sync_2_canny-_e_v_t_2_r_e_a_d_m_e.html#autotoc_md1", null ]
     ] ],
+    [ "Namespaces", "namespaces.html", [
+      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
+      [ "Namespace Members", "namespacemembers.html", [
+        [ "All", "namespacemembers.html", null ],
+        [ "Functions", "namespacemembers_func.html", null ]
+      ] ]
+    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],

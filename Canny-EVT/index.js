@@ -15,6 +15,7 @@ var index =
         [ "Compilation and Execution", "page_how_to_use.html#sec_mapping_1", null ],
         [ "File Conversion", "page_how_to_use.html#sec_mapping_2", null ]
       ] ],
+      [ "Testing", "page_how_to_use.html#sec_how_to_use_5", null ],
       [ "Executable Files", "page_how_to_use.html#sec_how_to_use_4", null ]
     ] ],
     [ "Datasets used in our paper", "page_datasets.html", null ],

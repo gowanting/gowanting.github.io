@@ -122,26 +122,60 @@ Installation Instructions</h2>
 <ul>
 <li>
 <p class="startli">OpenCV</p>
-<p class="interli">...</p>
-<p class="interli">(Provide step-by-step instructions on how to install OpenCV)</p>
+<p class="interli"><b>Command Line Installation (Quick)</b></p>
+<p class="interli">To install OpenCV on a Debian-based system (like Ubuntu) via command line, use:</p>
+<pre class="fragment">sudo apt install libopencv-dev python3-opencv
+</pre><p class="interli"><b>Source Installation</b></p>
+<p class="interli">For a custom installation or for systems without pre-built packages, you can install OpenCV from source.</p>
+<ol type="1">
+<li>Visit the official OpenCV website to download the source code:<ul>
+<li><a href="https://opencv.org/" target="_blank"><code>OpenCV Official Website</code></a></li>
+</ul>
+</li>
+<li>Download the latest source code from the releases page:<ul>
+<li><a href="https://opencv.org/releases/" target="_blank"><code>OpenCV Releases</code></a></li>
+</ul>
+</li>
+</ol>
+<p class="interli">After downloading, extract the files, navigate to the directory, and follow the standard source building process with CMake.</p>
+<p class="interli">Note: Building from source requires additional steps such as dependency resolution and configuration which are not covered in this brief README. Please refer to the OpenCV documentation for detailed instructions.</p>
 <p class="endli"></p>
 </li>
 <li>
 <p class="startli">Eigen3</p>
-<p class="interli">...</p>
-<p class="interli">(Provide step-by-step instructions on how to install Eigen3)</p>
+<p class="interli"><b>Command Line Installation (Quick)</b></p>
+<p class="interli">To install Eigen3 on Debian-based systems via command line:</p>
+<pre class="fragment">sudo apt install libeigen3-dev
+</pre><p class="interli"><b>Source Installation</b></p>
+<p class="interli">For manual installation from source:</p>
+<p class="interli">Download the source code from the official Eigen website:</p>
+<ul>
+<li><a href="http://eigen.tuxfamily.org/index.php?title=Main_Page" target="_blank"><code>Eigen Official Page</code></a></li>
+</ul>
+<p class="interli">After downloading, you can include Eigen in your C++ project by adding the extracted directory to your include path. Eigen is a header-only library, so no building or linking is necessary.</p>
 <p class="endli"></p>
 </li>
 <li>
 <p class="startli">PCL</p>
-<p class="interli">...</p>
-<p class="interli">(Provide step-by-step instructions on how to install PCL)</p>
+<p class="interli"><b>Command Line Installation (Quick)</b></p>
+<p class="interli">For Debian-based systems, use the following commands to install PCL from a PPA repository:</p>
+<pre class="fragment">sudo add-apt-repository ppa:v-launchpad-jochen-sprickerhof-de/pcl
+sudo apt-get update
+sudo apt-get install libpcl-dev
+</pre><p class="interli"><b>Source Installation</b></p>
+<p class="interli">Alternatively, to install PCL from source:</p>
+<p class="interli">Clone the PCL repository:</p>
+<pre class="fragment">git clone https://github.com/PointCloudLibrary/pcl.git
+</pre><p class="interli">After cloning, proceed with the build process using CMake and make.</p>
+<p class="interli">Note: Building from source requires fulfilling certain dependencies and might be system-specific. Please refer to the PCL documentation for a complete build guide.</p>
 <p class="endli"></p>
 </li>
 <li>
 <p class="startli">Pangolin</p>
-<p class="interli">...</p>
-<p class="interli">(Provide step-by-step instructions on how to install Pangolin)</p>
+<p class="interli">To install Pangolin from the source, use the following command to clone the repository:</p>
+<pre class="fragment">git clone https://github.com/stevenlovegrove/Pangolin.git
+</pre><p class="interli">After cloning, proceed with the build process using CMake and make.</p>
+<p class="interli">Note: Ensure all the required dependencies are installed before compiling Pangolin. Refer to the Pangolin GitHub repository for detailed build instructions and dependency information.</p>
 <p class="endli"></p>
 </li>
 </ul>
