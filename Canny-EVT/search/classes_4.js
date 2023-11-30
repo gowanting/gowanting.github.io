@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['job_0',['Job',['../struct_canny_e_v_t_1_1_event_problem_l_m_1_1_job.html',1,'CannyEVT::EventProblemLM']]]
+  ['imumsg_0',['ImuMsg',['../struct_canny_e_v_t_1_1_imu_msg.html',1,'CannyEVT']]]
 ];

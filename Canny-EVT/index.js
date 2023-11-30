@@ -18,7 +18,12 @@ var index =
       [ "Testing", "page_how_to_use.html#sec_how_to_use_5", null ],
       [ "Executable Files", "page_how_to_use.html#sec_how_to_use_4", null ]
     ] ],
-    [ "Datasets used in our paper", "page_datasets.html", null ],
+    [ "Datasets used in our paper", "page_datasets.html", [
+      [ "MPL1", "page_datasets.html#sec_datasets_1", null ],
+      [ "MPL2", "page_datasets.html#sec_datasets_2", null ],
+      [ "VECtor", "page_datasets.html#sec_datasets_3", null ],
+      [ "TUM", "page_datasets.html#sec_datasets_4", null ]
+    ] ],
     [ "How to contribute", "page_how_to_contribute.html", null ],
     [ "Contact", "page_contact.html", null ],
     [ "References", "page_references.html", null ]

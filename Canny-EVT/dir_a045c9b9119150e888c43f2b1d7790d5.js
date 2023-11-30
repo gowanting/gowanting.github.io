@@ -1,7 +1,7 @@
 var dir_a045c9b9119150e888c43f2b1d7790d5 =
 [
+    [ "CamBasedProblemLM.h", "_cam_based_problem_l_m_8h_source.html", null ],
     [ "EventCamera.h", "_event_camera_8h_source.html", null ],
-    [ "EventProblemLM.h", "_event_problem_l_m_8h_source.html", null ],
     [ "Frame.h", "_frame_8h_source.html", null ],
     [ "GenericFunctor.h", "_generic_functor_8h_source.html", null ],
     [ "LogMacro.h", "_log_macro_8h_source.html", null ],

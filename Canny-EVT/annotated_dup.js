@@ -1,10 +1,10 @@
 var annotated_dup =
 [
     [ "CannyEVT", null, [
+      [ "CamBasedProblemConfig", "struct_canny_e_v_t_1_1_cam_based_problem_config.html", null ],
+      [ "CamBasedProblemLM", "class_canny_e_v_t_1_1_cam_based_problem_l_m.html", "class_canny_e_v_t_1_1_cam_based_problem_l_m" ],
       [ "EventCamera", "class_canny_e_v_t_1_1_event_camera.html", null ],
       [ "EventMsg", "struct_canny_e_v_t_1_1_event_msg.html", null ],
-      [ "EventProblemConfig", "struct_canny_e_v_t_1_1_event_problem_config.html", null ],
-      [ "EventProblemLM", "class_canny_e_v_t_1_1_event_problem_l_m.html", "class_canny_e_v_t_1_1_event_problem_l_m" ],
       [ "Frame", "class_canny_e_v_t_1_1_frame.html", null ],
       [ "FrameData", "struct_canny_e_v_t_1_1_frame_data.html", null ],
       [ "GenericFunctor", "struct_canny_e_v_t_1_1_generic_functor.html", "struct_canny_e_v_t_1_1_generic_functor" ],
