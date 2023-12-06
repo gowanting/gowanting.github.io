@@ -1,5 +1,6 @@
 var index =
 [
+    [ "Notice", "index.html#main_sec_3", null ],
     [ "Getting started", "index.html#main_sec_2", null ],
     [ "Installation", "page_installation.html", [
       [ "Downloading the source code", "page_installation.html#sec_installation_1", null ],
@@ -15,8 +16,7 @@ var index =
         [ "Compilation and Execution", "page_how_to_use.html#sec_mapping_1", null ],
         [ "File Conversion", "page_how_to_use.html#sec_mapping_2", null ]
       ] ],
-      [ "Testing", "page_how_to_use.html#sec_how_to_use_5", null ],
-      [ "Executable Files", "page_how_to_use.html#sec_how_to_use_4", null ]
+      [ "Testing", "page_how_to_use.html#sec_how_to_use_5", null ]
     ] ],
     [ "Datasets used in our paper", "page_datasets.html", [
       [ "MPL1", "page_datasets.html#sec_datasets_1", null ],

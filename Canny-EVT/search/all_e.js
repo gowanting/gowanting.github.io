@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['scalar_0',['Scalar',['../struct_canny_e_v_t_1_1_generic_functor.html#ad4246dfe479657b858e1872baebc19c6',1,'CannyEVT::GenericFunctor']]],
-  ['scale_1',['scale',['../namespaceevaluate__rpe.html#a76031c375781ad9c237d5209cfcf8244',1,'evaluate_rpe']]],
-  ['source_20code_2',['Downloading the source code',['../page_installation.html#sec_installation_1',1,'']]],
-  ['started_3',['Getting started',['../index.html#main_sec_2',1,'']]],
-  ['system_4',['System',['../class_canny_e_v_t_1_1_system.html',1,'CannyEVT']]]
+  ['read_5ftrajectory_0',['read_trajectory',['../namespaceevaluate__rpe.html#a2e6847d765f1a16efb546993ebf544b5',1,'evaluate_rpe']]],
+  ['references_1',['References',['../page_references.html',1,'index']]],
+  ['required_20libraries_2',['Required Libraries',['../page_installation.html#sec_installation_2',1,'']]],
+  ['residualitem_3',['ResidualItem',['../struct_canny_e_v_t_1_1_residual_item.html',1,'CannyEVT']]],
+  ['rotations_5falong_5ftrajectory_4',['rotations_along_trajectory',['../namespaceevaluate__rpe.html#a1efa6f7352cde94fd8260b77dd505bdc',1,'evaluate_rpe']]],
+  ['run_20canny_20evt_5',['Run Canny-EVT',['../page_how_to_use.html#sec_how_to_use_2',1,'']]]
 ];
