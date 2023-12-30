@@ -45,7 +45,7 @@ class TestSmtpServer < Test::Unit::TestCase
         :port=>Localport,
         :domain=>"bogus",
         :from=>"me@example.com",
-        :to=>"you@example.com",
+        :to=>"xuwt@shanghaitech.edu.cn",
         :header=> {"Subject"=>"Email subject line", "Reply-to"=>"me@example.com"},
         :body=>"Not much of interest here."
 
