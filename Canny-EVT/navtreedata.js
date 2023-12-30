@@ -22,41 +22,4 @@
 
  @licend  The above is the entire license notice for the JavaScript code in this file
 */
-var NAVTREE =
-[
-  [ "Canny-EVT", "index.html", [
-    [ "The Canny-EVT library", "index.html", "index" ],
-    [ "Canny_EVIT", "md__2_users_2wanting_2_files_2git__sync_2_canny-_e_v_t_2_r_e_a_d_m_e.html", [
-      [ "Canny-EVT", "md__2_users_2wanting_2_files_2git__sync_2_canny-_e_v_t_2_r_e_a_d_m_e.html#autotoc_md1", null ]
-    ] ],
-    [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
-      [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", null ],
-        [ "Functions", "namespacemembers_func.html", null ]
-      ] ]
-    ] ],
-    [ "Classes", "annotated.html", [
-      [ "Class List", "annotated.html", "annotated_dup" ],
-      [ "Class Index", "classes.html", null ],
-      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
-      [ "Class Members", "functions.html", [
-        [ "All", "functions.html", null ],
-        [ "Functions", "functions_func.html", null ],
-        [ "Variables", "functions_vars.html", null ],
-        [ "Typedefs", "functions_type.html", null ]
-      ] ]
-    ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ]
-    ] ]
-  ] ]
-];
-
-var NAVTREEINDEX =
-[
-"_cam_based_problem_l_m_8h_source.html"
-];
-
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
+var NAVTREE=[["Canny-EVT","index.html",[["The Canny-EVT library","index.html","index"],["Canny_EVIT","md__2_users_2wanting_2_files_2git__sync_2_canny-_e_v_t_2_r_e_a_d_m_e.html",[["Canny-EVT","md__2_users_2wanting_2_files_2git__sync_2_canny-_e_v_t_2_r_e_a_d_m_e.html#autotoc_md1",null]]],["Namespaces","namespaces.html",[["Namespace List","namespaces.html","namespaces_dup"],["Namespace Members","namespacemembers.html",[["All","namespacemembers.html",null],["Functions","namespacemembers_func.html",null]]]]],["Classes","annotated.html",[["Class List","annotated.html","annotated_dup"],["Class Index","classes.html",null],["Class Hierarchy","hierarchy.html","hierarchy"],["Class Members","functions.html",[["All","functions.html",null],["Functions","functions_func.html",null],["Variables","functions_vars.html",null],["Typedefs","functions_type.html",null]]]]],["Files","files.html",[["File List","files.html","files_dup"]]]]]],NAVTREEINDEX=["_cam_based_problem_l_m_8h_source.html"],SYNCONMSG="click to disable panel synchronisation",SYNCOFFMSG="click to enable panel synchronisation";
