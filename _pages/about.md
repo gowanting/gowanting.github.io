@@ -20,7 +20,7 @@ I am currently a doctoral student at ShanghaiTech University, under the supervis
 
 My research interests include visual SLAM and geometric computer vision, specifically focusing on the geometric solutions of pose estimation problems for traditional and event cameras. Locate the full list of my scholarly publications using [Google Scholar](https://scholar.google.com/citations?user=pNhdquoAAAAJ).
 
-<p style="color: red;">I am currently exploring opportunities in the job market!</p>
+<!-- <p style="color: red;">I am currently exploring opportunities in the job market!</p> -->
 
 
 
