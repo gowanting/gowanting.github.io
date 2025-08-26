@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
+  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SpatialGrounding</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="../SpatialGrounding/css/bulma.min.css">
+  <link rel="stylesheet" href="../SpatialGrounding/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="../SpatialGrounding/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="../SpatialGrounding/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="../SpatialGrounding/css/index.css">
+  <link rel="icon" href="../SpatialGrounding/images/logo.png">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="../SpatialGrounding/js/fontawesome.all.min.js"></script>
+  <script src="../SpatialGrounding/js/bulma-carousel.min.js"></script>
+  <script src="../SpatialGrounding/js/bulma-slider.min.js"></script>
+  <script src="../SpatialGrounding/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://gowanting.github.io/">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+    </div>
+
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title" style="display: flex; align-items: center; justify-content: center; gap: 15px;">
+            <img src="../SpatialGrounding/images/logo.png" width="60" alt="Logo">
+            <span class="dnerf">SpatialGrounding</span>
+            <!-- A Unified Framework for 3D Semantic Reconstruction of Indoor Environments -->
+          </h1>
+          <!-- <h1 class="title is-1 publication-title"<title><span class="dnerf">SpatialGrounding</span></title></h1> -->
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://gowanting.github.io/">Wanting Xu</a><sup>1</sup>,</span>
+            <span class="author-block">
+              Lingbing Zeng<sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=luo2KJ8AAAAJ&hl=zh-CN&oi=ao">Ran Cheng</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              Lige Liu<sup>1</sup>,</span>
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=cO9hYf4AAAAJ&hl=zh-CN&oi=sra">Tao Sun</a><sup>1</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Midea Group</span>
+            <!-- <span class="author-block"><sup>2</sup>Google Research</span> -->
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <!-- <span class="link-block">
+                <a href="https://arxiv.org/pdf/2011.12948"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span> -->
+              <!-- <span class="link-block">
+                <a href="https://arxiv.org/abs/2011.12948"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span> -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/"
+                class="button is-normal is-rounded is-light is-static">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>TechReport (Coming Soon)</span>
+                </span>
+              </span>
+              <!-- Video Link. -->
+              <!-- <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span> -->
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/gowanting/SpatialGrounding"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <!-- Dataset Link. -->
+              <!-- <span class="link-block">
+                <a href="https://github.com/google/nerfies/releases/tag/0.1"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a>
+            </div> -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body" style="padding-top: 1rem; padding-bottom: 1rem;">
+      <img id="teaser" src="../SpatialGrounding/images/2.png" alt="Teaser" style="width: 100%; height: auto;">
+      <h2 class="subtitle has-text-centered">
+        <!-- <span class="dnerf">SpatialGrounding</span> turns. -->
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+<!-- <section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-steve">
+          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+            <source src="../SpatialGrounding/videos/steve.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-chair-tp">
+          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+            <source src="../SpatialGrounding/videos/chair-tp.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-shiba">
+          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
+            <source src="../SpatialGrounding/videos/shiba.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-fullbody">
+          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
+            <source src="../SpatialGrounding/videos/fullbody.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-blueshirt">
+          <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
+            <source src="../SpatialGrounding/videos/blueshirt.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-mask">
+          <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
+            <source src="../SpatialGrounding/videos/mask.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-coffee">
+          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
+            <source src="../SpatialGrounding/videos/coffee.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-toby">
+          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
+            <source src="../SpatialGrounding/videos/toby2.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>We present <span class="dnerf">SpatialGrounding</span>, a novel multi-modal framework designed to <strong>ground high-level semantic concepts within geometrically precise 3D reconstructions</strong> of indoor environments, specifically for mobile robot spatial understanding. Our approach addresses critical challenges by fusing heterogeneous sensor data, integrating LDS SLAM 2D pose priors and 2D occupancy maps with deep learning-based visual matching from monocular image sequences.</p>
+          <p>The system's core establishes a high-fidelity geometric foundation by leveraging pose priors from SLAM to solve scale ambiguity and enforce global consistency. An intelligent image pair selection strategy, guided by the robot's 2D occupancy map, significantly reduces computational overhead. This spatially-constrained data is processed using <strong>MASt3R</strong> for robust feature matching and <strong>GLOMAP</strong> for global optimization. Subsequently, the framework achieves <strong>semantic grounding</strong> by employing <strong>FC-CLIP</strong> to lift 2D visual cues into dense 3D semantic fields. This yields key structured outputs, including <strong>high-density semantic point clouds</strong> and <strong>semantically-enriched Bird's-Eye View (BEV) maps</strong> that delineate the architectural layout.</p>
+          <p><strong>Key contributions include:</strong> (1) A unified framework that fuses LDS SLAM 2D pose priors with visual reconstruction, solving scale ambiguity and improving geometric accuracy through spatial constraints from robot navigation data. (2) An intelligent image pair selection strategy guided by 2D occupancy maps, which significantly reduces computational overhead while maintaining reconstruction quality. (3) A pipeline from raw sensor data to semantic 3D understanding, incorporating MASt3R for feature matching, GLOMAP for global optimization, and FC-CLIP for semantic segmentation.</p>
+          <p>The framework successfully generates semantically-labeled 3D point clouds, 2D bird's-eye-view maps, and 3D bounding boxes, providing comprehensive spatial understanding for mobile robot navigation and scene analysis. This work represents a significant advancement in bridging the gap between robotic perception and 3D scene understanding, with immediate applications in autonomous cleaning robots, indoor navigation, and spatial AI systems.</p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Paper video. -->
+    <!-- <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div> -->
+    <!--/ Paper video. -->
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+      <!-- Pipeline. -->
+      <!-- <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+              <h2 class="title is-3"><span class="dnerf">SpatialGrounding</span> Pipeline</h2>
+              <img class="input-img" src="../SpatialGrounding/images/pipeline.jpg" />
+              <div class="content has-text-justified">
+                  <p>
+                    <span class="dnerf">SpatialGrounding</span> System Workflow: This flowchart illustrates the multi-stage processing pipeline of the SpatialGrounding system. It begins with Intelligent Data Preprocessing, including image filtering, camera calibration, and room classification. Next, 3D Reconstruction is performed using MASt3R, COLMAP, and GLOMAP for both sparse and dense models. The reconstructed scenes are then processed for Photorealistic Rendering with 3D Gaussian Splatting. Finally, Semantic Analysis is conducted, encompassing 3D scene segmentation, BEV map generation, and detailed spatial layout understanding of elements like walls and furniture, all supported by comprehensive Visualization Tools.
+                  </p>
+              </div>
+          </div>
+      </div> -->
+      <!--/ Pipeline. -->
+  </div>
+</section>
+
+
+
+<!-- <section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{park2021nerfies,
+  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
+  title     = {Nerfies: Deformable Neural Radiance Fields},
+  journal   = {ICCV},
+  year      = {2021},
+}</code></pre>
+  </div>
+</section> -->
+
+
+<!-- <footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link" href="https://github.com/gowanting/SpatialGrounding">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="content has-text-centered">
+      <p>
+        This website is licensed under a <a rel="license"
+                                            href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+        Commons Attribution-ShareAlike 4.0 International License</a>.
+      </p>
+      <p>
+        This webpage template is from <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>. 
+        We sincerely thank <a href="https://keunhong.com/">Keunhong Park</a> for developing and open-sourcing this template.
+      </p>
+    </div>
+  </div>
+</footer> -->
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+            This webpage template is from <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>. 
+            We sincerely thank <a href="https://keunhong.com/">Keunhong Park</a> for developing and open-sourcing this template.
+          </p>
+        </div>
+      </div>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>
