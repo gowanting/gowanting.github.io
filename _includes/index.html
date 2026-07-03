@@ -27,7 +27,7 @@
   <td id="projectalign">
    <div id="projectname">Canny-EVT
    </div>
-   <div id="projectbrief">A library for ***</div>
+   <div id="projectbrief">A library for event-camera 6-DoF tracking</div>
   </td>
  </tr>
  </tbody>
@@ -93,10 +93,10 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
   <div class="headertitle"><div class="title">The Canny-EVT library </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>The present software framework accompanies the paper submission "Semi-Dense Cross-Modal 6-DoF Tracking of an CamBased Camera in Challenging Conditions". It contains solutions for 6-dof semi-dense tracking with normal cameras as well as cross-modal 6-DoF semi-dense tracking with an CamBased camera.</p>
+<div class="textblock"><p>Canny-EVT is a C++/ROS software framework for semi-dense 6-DoF tracking with event cameras. It accompanies the paper submission "Semi-Dense Cross-Modal 6-DoF Tracking of an Event Camera in Challenging Conditions" and provides documented modules for event-camera modeling, time-surface construction, pose optimization, and dataset evaluation.</p>
 <p>Related Publications:</p>
 <ul>
-<li>Zuo, Yi–Fan, et al. "Devo: Depth-CamBased camera visual odometry in challenging conditions." 2022 International Conference on Robotics and Automation (ICRA). IEEE, 2022.</li>
+<li>Zuo, Yi-Fan, et al. "DEVO: Depth-Event Camera Visual Odometry in Challenging Conditions." 2022 International Conference on Robotics and Automation (ICRA). IEEE, 2022.</li>
 <li>He, Shida, et al. "Incremental 3d line segment extraction from semi-dense slam." 2018 24th International Conference on Pattern Recognition (ICPR). IEEE, 2018.</li>
 <li>Mur-Artal, Raúl, and Juan D. Tardós. "Probabilistic Semi-Dense Mapping from Highly Accurate Feature-Based Monocular SLAM." Robotics: Science and Systems. Vol. 2015. 2015.</li>
 </ul>
@@ -107,16 +107,14 @@ Notice</h1>
 <p><a href="https://github.com/zyfff/Canny-VOAT" target="_blank"><code>Canny-VOAT Executable File</code></a></p>
 <h1><a class="anchor" id="main_sec_2"></a>
 Getting started</h1>
-<p>Canny-EVT features the following set of algorithms:</p>
+<p>Canny-EVT includes the following core modules:</p>
 <ul>
-<li>
-****: <ol>
-<li>
-***** </li>
-</ol>
-</li>
+<li>Event-camera modeling and event data handling.</li>
+<li>Time-surface construction from event streams.</li>
+<li>LM-based semi-dense 6-DoF pose optimization.</li>
+<li>ROS-based running, dataset conversion, and evaluation utilities.</li>
 </ul>
-<p>The aim of Canny-EVT is to ****.</p>
+<p>The aim of Canny-EVT is to make the implementation and experiments for semi-dense event-camera tracking easier to run, inspect, and reproduce on the supported datasets.</p>
 <p>Please consult the following sub-pages to get a step-by-step introduction to the library:</p><ul>
 <li><a class="el" href="page_installation.html">Installation</a></li>
 <li><a class="el" href="page_how_to_use.html">How to use</a></li>

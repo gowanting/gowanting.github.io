@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
@@ -16,14 +16,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am currently working at Midea Group. I received my Ph.D. degree from ShanghaiTech University in 2024, under the supervision of [Prof. Dr. Laurent Kneip](https://mpl.sist.shanghaitech.edu.cn/Director.html). My research and academic activities were part of the [Mobile Perception Lab (MPL)](https://mpl.sist.shanghaitech.edu.cn/). I was also an academic guest at the [Computer Vision and Geometry Group (CVG)](https://cvg.ethz.ch/) at ETH Zurich from October 2022 to October 2023, serving under the guidance of [Prof. Dr. Marc Pollefeys](https://cvg.ethz.ch/team/Prof-Dr-Marc-Pollefeys) and [Dr. Dániel Béla Baráth](https://cvg.ethz.ch/team/Dr-Daniel-Bela-Barath). I completed my undergraduate studies in Mathematics and Applied Mathematics at Xinjiang University.
+I am an embodied AI algorithm engineer at Ant Group, focusing on VLA, WAM, and 3D spatial understanding. I received my Ph.D. from ShanghaiTech University in 2024, under the supervision of [Prof. Dr. Laurent Kneip](https://mpl.sist.shanghaitech.edu.cn/Director.html) at the [Mobile Perception Lab (MPL)](https://mpl.sist.shanghaitech.edu.cn/). From October 2022 to October 2023, I was an academic guest at the [Computer Vision and Geometry Group (CVG)](https://cvg.ethz.ch/), ETH Zurich, jointly supervised by [Prof. Dr. Marc Pollefeys](https://cvg.ethz.ch/team/Prof-Dr-Marc-Pollefeys) and [Dr. Daniel Barath](https://danini.github.io/). I received my B.Sc. in Mathematics from Xinjiang University.
 
-My research interests include visual SLAM and geometric computer vision, specifically focusing on the geometric solutions of pose estimation problems for traditional and event cameras. Locate the full list of my scholarly publications using [Google Scholar](https://scholar.google.com/citations?user=pNhdquoAAAAJ).
-
-<!-- <p style="color: red;">I am currently exploring opportunities in the job market!</p> -->
-
-
-
-<!-- Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
+My research interests span VLA, WAM, 3D spatial understanding, visual SLAM, and geometric computer vision. My research has appeared in T-RO, IJCV, CVPR, T-PAMI, ICRA, 3DV, and BMVC. See my full publication list on [Google Scholar](https://scholar.google.com/citations?user=pNhdquoAAAAJ).
